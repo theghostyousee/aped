@@ -1,0 +1,97 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Regular.94bb495fba6077f669ed.ttf");
+}
+
+*,
+::before,
+::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Plus Jakarta Display";
+}
+
+
+
+
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  justify-content: center;
+  position: relative;
+}
+
+
+.mid{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid img{
+    width: 700px;
+    cursor: pointer;
+}
+
+
+.button{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vmin;
+    align-items: center;
+}
+
+.button img{
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 50px;
+    font-size: 26px;
+    font-weight: 500;
+    background: #62D6BB;
+    border-radius: 10px;
+    min-width: 150px;
+    width: 280px;
+    box-shadow: 0 4px 0 #2D374B;
+    transition: all 0.4s ease;
+    color: #4C4E50;
+    cursor: pointer;
+    font-weight: 900;
+    font-style: bold;
+    border: 0;
+}
+
+button:hover{
+    background: #62d6bbbb;
+}
+

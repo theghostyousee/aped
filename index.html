@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aped Solana</title>
+    <link rel="icon" href="icon.png" />
+
+</head>
+<body>
+
+    <div class="mid">
+        <img src="logo.png" id="tweet">
+    </div>
+    <div class="button">
+
+        <img src="tg.webp" id="telegram">
+    </div>
+    
+
+    <script>
+        // JavaScript to handle redirection when clicking on elements
+        document.getElementById("tweet").addEventListener("click", function () {
+            window.location.href = "https://twitter.com/intent/tweet?text=This%20is%20my%20proof%20of%20ape%20for%20%40ApedCoinSolana%20%F0%9F%8D%8C&";
+        });
+
+        document.getElementById("telegram").addEventListener("click", function () {
+            window.location.href = "https://t.me/ApedCoinSolana";
+        });
+    </script>
+</body>
+</html>
